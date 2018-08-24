@@ -88,7 +88,7 @@ class baseClass {
   std::map<std::string, bool> triggerDecisionMap_; 
   std::map<std::string, int > triggerPrescaleMap_; 
   
-  std::map<std::string, std::vector<std::string> > m_fileMap;
+  std::map<std::string, std::vector<std::string>> m_fileMap;
   std::map<std::string, std::string> m_treeMap;
   std::vector<cell> m_badChannels;
 };
